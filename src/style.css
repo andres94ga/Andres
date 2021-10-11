@@ -45,8 +45,9 @@ ul{
     width: 400px;
     justify-content: space-around;
     font-size:25px;
-
 }
+
+
 
 li{
     text-decoration: none ;
@@ -106,8 +107,10 @@ p{
 }
 
 .headshot-img{
-    width: 130px;
-    border-radius: 50px;
+    width: 120px;
+    border-radius:60px;
+    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 .headshot-container{
@@ -181,4 +184,50 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+
+.hamburger{
+   display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color:#2b2c38 ;
+        margin: 0px;
+
+    }
+    /*.hero{
+        background-color: #1c1d25;
+        height: 70vh;
+        color: white;
+        font-size:30px ;
+    }*/
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#2b2c38 ;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    ul.show{
+        display: block;
+    }
 }
