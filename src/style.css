@@ -1,0 +1,149 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: #fff;
+}
+
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size:30px ;
+}
+.hero-center{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 45px;
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+.socials{
+    padding-bottom: 200px;
+}
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+    font-size:25px;
+
+}
+
+li{
+    text-decoration: none ;
+}
+
+
+h1{
+    font-size: 65px;
+    margin: 0;
+}
+
+h2{
+    font-size:50px;
+}
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color:coral ;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 4px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+
+.button:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot-img{
+    width: 130px;
+    border-radius: 50px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #b1aeae;
+    margin: 10px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-section-two{
+   /* display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    padding: 80px;
+}
+
+.subtext{
+    font-size: 15px;
+    font-width: 300;
+}
+
+.project-image{
+    margin-top:25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr{
+   margin-left: 15px;
+    margin-right: 15px;
+}
