@@ -115,6 +115,13 @@ p{
     align-items: center;
 }
 
+@media only screen and ( max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-card{
     width: 300px;
     height: 500px;
@@ -129,8 +136,8 @@ p{
 }
 
 .sub-section-two{
-   /* display: flex;
-    flex-direction: column;*/
+   display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 80px;
 }
@@ -140,11 +147,27 @@ p{
     font-width: 300;
 }
 
-.project-image{
+.project-image1{
     margin-top:25px;
     width: 250px;
     border-radius: 125px;
+    object-fit: cover;
 }
+.project-image2{
+    margin-top:25px;
+    width: 250px;
+    height: 170px;
+    border-radius: 125px;
+    object-fit: cover;
+}
+.project-image3{
+    margin-top:25px;
+    width: 250px;
+    height: 170px;
+    border-radius: 125px;
+    object-fit: cover;
+}
+
 
 hr{
    margin-left: 15px;
